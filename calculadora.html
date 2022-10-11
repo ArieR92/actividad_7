@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/calc.css">
+    <link rel="stylesheet" href="css/fontello.css">
+
+    <title>Calculadora</title>
+</head>
+<body>
+
+<div class="container-fluid">
+        <div class="row justify-content-center align-items-center vh-100">
+            <div id="calc" class="col-4">
+               <!---pantalla--> 
+                <div class="row" id="screen">
+                    <input class="form-label text-end text-white" type="text" name="" id="result" placeholder="0">
+                </div>
+        
+               <!--botones-->
+                <div class="d-flex justify-content-center align-items-center contenedor-botones mb-1">
+                    <div class="row boton-contenedor justify-content-center">
+                         <button name="data-number" class="btn px-0">1</button>
+                         <button name="data-number" class="btn px-0">4</button>
+                         <button name="data-number" class="btn px-0">7</button>
+                         <button name="data-delete" class="btn px-0">C</button>
+                    </div>
+                    <div class="row boton-contenedor justify-content-center">
+                         <button name="data-number" class="btn px-0">2</button>
+                         <button name="data-number" class="btn px-0">5</button>
+                         <button name="data-number" class="btn px-0">8</button>
+                         <button name="data-number" class="btn px-0">0</button>
+                    </div>
+                    <div class="row boton-contenedor justify-content-center">
+                         <button name="data-number" class="btn px-0">3</button>
+                         <button name="data-number" class="btn px-0">6</button>
+                         <button name="data-number" class="btn px-0">9</button>
+                         <button name="data-igual" class="btn px-0"><i class="icon-eq"></i></button>
+                    </div>
+                    <div class="row boton-contenedor justify-content-center">
+                         <button name="data-opera" class="btn px-0">+</button>
+                         <button name="data-opera" class="btn px-0">-</button>
+                         <button name="data-opera" class="btn px-0">/</button>
+                         <button name="data-opera" class="btn px-0">×</button>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+</div>
+
+
+
+
+ <script src="js/calc.js"></script>
+ <script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
